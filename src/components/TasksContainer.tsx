@@ -1,3 +1,5 @@
+import { Task } from './Task'
+
 import styles from './TasksContainer.module.css'
 
 export function TasksContainer() {
@@ -9,7 +11,9 @@ export function TasksContainer() {
       </header>
 
       <main>
-        
+        <Task />
+        <Task />
+        <Task />
       </main>
     </div>
   )
