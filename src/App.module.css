@@ -10,3 +10,14 @@
 .header img {
   width: 7.875rem;
 }
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  max-width: 736px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+  top: -1.688rem;
+}
