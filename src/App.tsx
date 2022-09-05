@@ -1,7 +1,13 @@
 import './global.css'
+import styles from './App.module.css'
+import logo from './assets/todo.svg'
 
 export function App() {
   return (
-    <h1>Ignite ToDo</h1>
+    <>
+      <header className={ styles.header }>
+        <img src={ logo } alt="Logotipo do ToDo" />
+      </header>
+    </>
   )
 }
