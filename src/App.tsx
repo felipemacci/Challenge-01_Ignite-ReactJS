@@ -1,4 +1,5 @@
 import { TaskCreatingBar } from './components/TaskCreatingBar'
+import { TasksContainer } from './components/TasksContainer'
 
 import './global.css'
 import styles from './App.module.css'
@@ -13,6 +14,7 @@ export function App() {
 
       <section className={ styles.tasks }>
         <TaskCreatingBar />
+        <TasksContainer />
       </section>
     </>
   )
