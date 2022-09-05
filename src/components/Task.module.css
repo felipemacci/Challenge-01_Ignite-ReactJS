@@ -49,6 +49,11 @@
   font-size: .875rem;
 }
 
+.task p.completed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
 .task button {
   line-height: 0;
   color: var(--gray-300);
